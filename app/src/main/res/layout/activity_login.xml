@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:andriod ="http://schemas.android.com/apk/res/android"
+    xmlns:app= "http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    andriod:layout_width="match_parent"
+    andriod:layout_height="wrap_content"
+    andriod:layout_margin="16dp"
+    andriod:orientation= "vertical"
+    tools:context=".LoginActivity">
+
+    <EditText
+        andriod:id = "@+id/etUsername"
+        andriod:layout_width="match_parent"
+        andriod:layout_height="wrap_content"
+        andriod:layout_weight="1"
+        andriod:ems = "10"
+        andriod:hint="username" />
+
+    <EditText
+        andriod:id = "@+id/etPassword"
+        andriod:layout_width="match_parent"
+        andriod:layout_height="wrap_content"
+        andriod:layout_weight="1"
+        andriod:ems = "10"
+        andriod:hint="password"
+        andriod:inputType="textPassword" />
+
+    <Button
+        andriod:id = "@+id/btnLogin"
+        andriod:layout_width="match_parent"
+        andriod:layout_height="wrap_content"
+        andriod:layout_weight="1"
+        andriod:text="Login"/>
+
+</LinearLayout>
